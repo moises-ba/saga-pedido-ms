@@ -1,0 +1,43 @@
+0000000000000000000000000000000000000000 3ccfd89f0f4ea9e6ee1e502fe3e990e539175ff9 moises-ba <moisesba@gmail.com> 1652190107 -0300	commit (initial): versao inicial utilizando clean code
+3ccfd89f0f4ea9e6ee1e502fe3e990e539175ff9 3ccfd89f0f4ea9e6ee1e502fe3e990e539175ff9 moises-ba <moisesba@gmail.com> 1652190120 -0300	checkout: moving from develop to limpeza_develop
+3ccfd89f0f4ea9e6ee1e502fe3e990e539175ff9 3ccfd89f0f4ea9e6ee1e502fe3e990e539175ff9 moises-ba <moisesba@gmail.com> 1652190281 -0300	reset: moving to HEAD
+3ccfd89f0f4ea9e6ee1e502fe3e990e539175ff9 b3ba0826d724ab2c6db59b85a83345ec7fe30323 moises-ba <moisesba@gmail.com> 1652199758 -0300	commit: refatorando
+b3ba0826d724ab2c6db59b85a83345ec7fe30323 b4d0c0ddc45d3815a93c5825b6c54bfcdab807dd moises-ba <moisesba@gmail.com> 1652205012 -0300	commit: .
+b4d0c0ddc45d3815a93c5825b6c54bfcdab807dd 16659bbd38c2e32f4516a422172d69df47477ba3 moises-ba <moisesba@gmail.com> 1652205019 -0300	commit: .
+16659bbd38c2e32f4516a422172d69df47477ba3 ddedae7a8c32b55c38c5dd2bc016e2ee8806ff3f Moises Barbosa De Almeida <moalmeida@internal-admins-internal-traffic-l-6ad629-1124484131.us-east-1.elb.amazonaws.com> 1652281687 -0300	commit: ajustes
+ddedae7a8c32b55c38c5dd2bc016e2ee8806ff3f 3ccfd89f0f4ea9e6ee1e502fe3e990e539175ff9 Moises Barbosa De Almeida <moalmeida@internal-admins-internal-traffic-l-6ad629-1124484131.us-east-1.elb.amazonaws.com> 1652281694 -0300	checkout: moving from limpeza_develop to develop
+3ccfd89f0f4ea9e6ee1e502fe3e990e539175ff9 ddedae7a8c32b55c38c5dd2bc016e2ee8806ff3f Moises Barbosa De Almeida <moalmeida@internal-admins-internal-traffic-l-6ad629-1124484131.us-east-1.elb.amazonaws.com> 1652281974 -0300	checkout: moving from develop to limpeza_develop
+ddedae7a8c32b55c38c5dd2bc016e2ee8806ff3f 54c4dec91a01bd42568a1a1e2e154c8a7f4840a4 Moises Barbosa De Almeida <moalmeida@internal-admins-internal-traffic-l-6ad629-1124484131.us-east-1.elb.amazonaws.com> 1652285221 -0300	commit: ajustes
+54c4dec91a01bd42568a1a1e2e154c8a7f4840a4 b449d2c8fd170fe22d5344acd3a7c942d2a3f341 Moises Barbosa De Almeida <moalmeida@internal-admins-internal-traffic-l-6ad629-1124484131.us-east-1.elb.amazonaws.com> 1652285231 -0300	commit: ajustes
+b449d2c8fd170fe22d5344acd3a7c942d2a3f341 2071475553513b948c7b4c1b9b525df638cbac94 Moises <moises.malmeida@mercadolivre.com> 1652294772 -0300	commit: .
+2071475553513b948c7b4c1b9b525df638cbac94 2071475553513b948c7b4c1b9b525df638cbac94 Moises <moises.malmeida@mercadolivre.com> 1652308683 -0300	checkout: moving from limpeza_develop to v3
+2071475553513b948c7b4c1b9b525df638cbac94 6c434f6cbf140b8202fbf547485ef6658474d2a4 Moises <moises.malmeida@mercadolivre.com> 1652356779 -0300	commit: .
+6c434f6cbf140b8202fbf547485ef6658474d2a4 df05101a4a8ba84f81e2177c5e268f62c55faae5 Moises <moises.malmeida@mercadolivre.com> 1652356801 -0300	commit: .
+df05101a4a8ba84f81e2177c5e268f62c55faae5 2071475553513b948c7b4c1b9b525df638cbac94 Moises <moises.malmeida@mercadolivre.com> 1652356809 -0300	checkout: moving from v3 to limpeza_develop
+2071475553513b948c7b4c1b9b525df638cbac94 df05101a4a8ba84f81e2177c5e268f62c55faae5 Moises <moises.malmeida@mercadolivre.com> 1652356832 -0300	checkout: moving from limpeza_develop to v3
+df05101a4a8ba84f81e2177c5e268f62c55faae5 239f418e0269448ca1381be069de047f58f2a330 Moises <moises.malmeida@mercadolivre.com> 1652359324 -0300	commit: .
+239f418e0269448ca1381be069de047f58f2a330 768175fe85a68fbfd20dec742851916f5a27f632 Moises <moises.malmeida@mercadolivre.com> 1652359747 -0300	commit: .
+768175fe85a68fbfd20dec742851916f5a27f632 73590f2f010ba9067e7719915b6d19ae89b1231d Moises <moises.malmeida@mercadolivre.com> 1652362043 -0300	commit: .
+73590f2f010ba9067e7719915b6d19ae89b1231d f2522dee8174a60f569f18fb4b82c22eb16571ba Moises <moises.malmeida@mercadolivre.com> 1652362552 -0300	commit: .
+f2522dee8174a60f569f18fb4b82c22eb16571ba b8348fbaea25c57f0cd054dc43d41f1ab082e23f Moises <moises.malmeida@mercadolivre.com> 1652459582 -0300	commit: assa
+b8348fbaea25c57f0cd054dc43d41f1ab082e23f 316e613d28c02df731ce6cce9ac4ad0159895271 Moises <moises.malmeida@mercadolivre.com> 1652553494 -0300	commit: .
+316e613d28c02df731ce6cce9ac4ad0159895271 58d5815ea4355e265c5e289e159e24dfd57be33a Moises <moises.malmeida@mercadolivre.com> 1652721193 -0300	commit: a
+58d5815ea4355e265c5e289e159e24dfd57be33a 87e83cffc77da2800d6a6189af67acfac7776120 Moises <moises.malmeida@mercadolivre.com> 1652721312 -0300	commit: a
+87e83cffc77da2800d6a6189af67acfac7776120 87e83cffc77da2800d6a6189af67acfac7776120 Moises <moises.malmeida@mercadolivre.com> 1653329482 -0300	checkout: moving from v3 to v4
+87e83cffc77da2800d6a6189af67acfac7776120 87e83cffc77da2800d6a6189af67acfac7776120 Moises <moises.malmeida@mercadolivre.com> 1653329489 -0300	checkout: moving from v4 to v3
+87e83cffc77da2800d6a6189af67acfac7776120 e6a21f0c22c809375cb7ec000deb2c34fc2a3ca7 Moises <moises.malmeida@mercadolivre.com> 1653329504 -0300	commit: ajustes
+e6a21f0c22c809375cb7ec000deb2c34fc2a3ca7 d3f4413e23b02b2f598511f2402dd8ea8df0fa13 Moises <moises.malmeida@mercadolivre.com> 1653329905 -0300	commit: ajustes
+d3f4413e23b02b2f598511f2402dd8ea8df0fa13 d3f4413e23b02b2f598511f2402dd8ea8df0fa13 Moises <moises.malmeida@mercadolivre.com> 1653332675 -0300	checkout: moving from v3 to v4
+d3f4413e23b02b2f598511f2402dd8ea8df0fa13 d3f4413e23b02b2f598511f2402dd8ea8df0fa13 Moises <moises.malmeida@mercadolivre.com> 1653332681 -0300	checkout: moving from v4 to v3
+d3f4413e23b02b2f598511f2402dd8ea8df0fa13 d3f4413e23b02b2f598511f2402dd8ea8df0fa13 Moises <moises.malmeida@mercadolivre.com> 1653332686 -0300	checkout: moving from v3 to v4
+d3f4413e23b02b2f598511f2402dd8ea8df0fa13 e7cf96568762b6fc4d7bafb9c79b634c2f7612ee Moises <moises.malmeida@mercadolivre.com> 1653499355 -0300	commit: .
+e7cf96568762b6fc4d7bafb9c79b634c2f7612ee 66a102447fc62ea6fce5282f0b7d9fb640580bc2 Moises <moises.malmeida@mercadolivre.com> 1653501676 -0300	commit: .
+66a102447fc62ea6fce5282f0b7d9fb640580bc2 66a102447fc62ea6fce5282f0b7d9fb640580bc2 Moises <moises.malmeida@mercadolivre.com> 1653508351 -0300	checkout: moving from v4 to v5
+66a102447fc62ea6fce5282f0b7d9fb640580bc2 40b45dc5e72bef8ab9b934f1fc62ffb59d6c674d Moises <moises.malmeida@mercadolivre.com> 1653509345 -0300	commit: .
+40b45dc5e72bef8ab9b934f1fc62ffb59d6c674d 66a102447fc62ea6fce5282f0b7d9fb640580bc2 Moises <moises.malmeida@mercadolivre.com> 1653509351 -0300	checkout: moving from v5 to v4
+66a102447fc62ea6fce5282f0b7d9fb640580bc2 40b45dc5e72bef8ab9b934f1fc62ffb59d6c674d Moises <moises.malmeida@mercadolivre.com> 1653509365 -0300	checkout: moving from v4 to v5
+40b45dc5e72bef8ab9b934f1fc62ffb59d6c674d d257f9df6276cbbb14b6d809b5982cc8f9d9a5e4 Moises <moises.malmeida@mercadolivre.com> 1653509636 -0300	commit: ,
+d257f9df6276cbbb14b6d809b5982cc8f9d9a5e4 cf403bab524688a29e853bfd00011a545e294cfb Moises <moises.malmeida@mercadolivre.com> 1653510783 -0300	commit: ,
+cf403bab524688a29e853bfd00011a545e294cfb 1269942bcf3660f554d54371ffedc4aca17316f7 Moises <moises.malmeida@mercadolivre.com> 1653511310 -0300	commit: .
+1269942bcf3660f554d54371ffedc4aca17316f7 67e184a3bfdd71ed865fefcc13650d3a01aef3e5 Moises <moises.malmeida@mercadolivre.com> 1653511602 -0300	commit: finalizado
+67e184a3bfdd71ed865fefcc13650d3a01aef3e5 8b8908a2fdd0b4af10f630c6fb1e7d757ab1a35d Moises <moises.malmeida@mercadolivre.com> 1653512621 -0300	commit: finalizado2
