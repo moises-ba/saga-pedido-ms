@@ -2,7 +2,7 @@ package service
 
 import (
 	"github.com/moises-ba/saga-pedido-ms/domain/dto"
-	"golang.org/x/mod/sumdb/storage"
+	"github.com/moises-ba/saga-pedido-ms/domain/repository"
 )
 
 type PedidoService interface {
@@ -15,6 +15,6 @@ type PedidoService interface {
 }
 
 type PedidoExportService interface {
-	ExportarPedidosAsync(userId, exportType string, storage storage.Storage) (string, error)
+	ExportarPedidosAsync(userId, exportType string, storage repository.Storage) (string, error)
 	ExportarPedidos(userId, exportType string) ([]byte, error)
 }

@@ -6,8 +6,8 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/moises-ba/saga-pedido-ms/adapter/presenter"
 	"github.com/moises-ba/saga-pedido-ms/domain/dto"
+	"github.com/moises-ba/saga-pedido-ms/domain/repository"
 	"github.com/moises-ba/saga-pedido-ms/domain/service"
-	"golang.org/x/mod/sumdb/storage"
 )
 
 func CriarPedido(pedidoService service.PedidoService) func(c *gin.Context) {
@@ -91,7 +91,7 @@ func ObterPedido(pedidoService service.PedidoService) func(c *gin.Context) {
 
 }
 
-func ExportarPedidosAsync(service service.PedidoExportService, storage storage.Storage) func(c *gin.Context) {
+func ExportarPedidosAsync(service service.PedidoExportService, storage repository.Storage) func(c *gin.Context) {
 
 	return func(c *gin.Context) {
 		usuarioHeader := c.GetHeader("usuarioId")
@@ -117,7 +117,7 @@ func ExportarPedidosAsync(service service.PedidoExportService, storage storage.S
 
 }
 
-func ExportarPedidos(service service.PedidoExportService, storage storage.Storage) func(c *gin.Context) {
+func ExportarPedidos(service service.PedidoExportService, storage repository.Storage) func(c *gin.Context) {
 
 	return func(c *gin.Context) {
 		usuarioHeader := c.GetHeader("usuarioId")
