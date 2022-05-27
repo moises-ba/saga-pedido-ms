@@ -25,3 +25,12 @@ func (f *pedidoExporterFactory) Create(exportType string) (exporter.PedidoExport
 
 	}
 }
+func (f *pedidoExporterFactory) CreateExporterStream(exportType string) (exporter.PedidoExporterStream, error) {
+	switch exportType {
+	case "csv":
+		return NewPedidoCSVExporter(), nil
+	default:
+		return nil, fmt.Errorf("exportador %v inexistente", exportType)
+
+	}
+}

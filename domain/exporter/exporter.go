@@ -6,10 +6,15 @@ import (
 )
 
 type PedidoExporter interface {
-	ExportStream(pedidoChan chan *entity.Pedido, storage repository.Storage, fileName string) (string, error)
 	Export(pedido []*entity.Pedido) ([]byte, error)
+}
+
+type PedidoExporterStream interface {
+	PedidoExporter
+	ExportStream(pedidoChan chan *entity.Pedido, storageStream repository.StorageStream, fileName string) (string, error)
 }
 
 type PedidoExporterFactory interface {
 	Create(exportType string) (PedidoExporter, error)
+	CreateExporterStream(exportType string) (PedidoExporterStream, error)
 }

@@ -2,12 +2,10 @@ package exporterprovider
 
 import (
 	"bytes"
-	"errors"
 	"fmt"
 
 	"github.com/moises-ba/saga-pedido-ms/domain/entity"
 	"github.com/moises-ba/saga-pedido-ms/domain/exporter"
-	"github.com/moises-ba/saga-pedido-ms/domain/repository"
 	"github.com/tealeg/xlsx"
 )
 
@@ -36,10 +34,6 @@ func (e *pedidoXLSXExporter) Export(pedidos []*entity.Pedido) ([]byte, error) {
 	}
 
 	return buf.Bytes(), nil
-}
-
-func (e *pedidoXLSXExporter) ExportStream(pedidoChan chan *entity.Pedido, storage repository.Storage, fileName string) (string, error) {
-	return "", errors.New("Exportacao via stream nao suportado")
 }
 
 func createXlsFileWithHeader() (*xlsx.File, *xlsx.Sheet, error) {

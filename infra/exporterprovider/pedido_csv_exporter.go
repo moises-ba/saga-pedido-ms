@@ -12,7 +12,7 @@ import (
 type pedidoCSVExporter struct {
 }
 
-func NewPedidoCSVExporter() exporter.PedidoExporter {
+func NewPedidoCSVExporter() exporter.PedidoExporterStream {
 	return &pedidoCSVExporter{}
 }
 
@@ -26,7 +26,7 @@ func (e *pedidoCSVExporter) Export(pedidos []*entity.Pedido) ([]byte, error) {
 	return []byte(csvContent), nil
 }
 
-func (e *pedidoCSVExporter) ExportStream(pedidoChan chan *entity.Pedido, storage repository.Storage, fileName string) (string, error) {
+func (e *pedidoCSVExporter) ExportStream(pedidoChan chan *entity.Pedido, storageStream repository.StorageStream, fileName string) (string, error) {
 
 	chanContentByte := make(chan []byte)
 	go func() {
@@ -38,7 +38,7 @@ func (e *pedidoCSVExporter) ExportStream(pedidoChan chan *entity.Pedido, storage
 		}
 	}()
 
-	storage.StoreStream(chanContentByte, fileName)
+	storageStream.StoreStream(chanContentByte, fileName)
 
 	return "", nil
 }
